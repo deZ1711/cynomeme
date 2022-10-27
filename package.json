@@ -1,5 +1,5 @@
 {
-  "name": "cynomeme",
+  "name": "cynomemo",
   "version": "1.0.0",
   "description": "cyno memo pour stats cyno",
   "main": "index.js",
@@ -14,9 +14,9 @@
   "author": "deZ",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/deZ1711/cynomeme/issues"
+    "url": "https://github.com/deZ1711/cynomemo/issues"
   },
-  "homepage": "https://github.com/deZ1711/cynomeme#readme",
+  "homepage": "https://github.com/deZ1711/cynomemo#readme",
   "dependencies": {
     "sass": "^1.55.0"
   }
