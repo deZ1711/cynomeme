@@ -14,29 +14,50 @@
 
 </head>
 <body>
-  <header class="banner">
-  <img class="banner__logo" src="/img/logobannernoir.jpeg" alt="tete de chien">
-  <div class="banner__title">
-    cyno memo
-  </div>
-  </header>
-  <nav class="banner__navbar">
-    <ul class="banner__links">
-      <li class="banner__link">
-        <a href="#">Menu</a>
-        <a href="#">Menu</a>
-        <a href="#">Menu</a>
-        <a href="#">Menu</a>
-        <a href="#">Profil</a>
-      </li>
-    </ul>
-  </nav>
-  <button aria-label="toggle navigation" class="burger__button">
-    <span class="burger__button--line l1"></span>
-    <span class="burger__button--line l2"></span>
-    <span class="burger__button--line l3"></span>
-  </button>
-
-  
+    <header class="banner">
+      <img class="banner__logo" src="/img/logobannernoir.jpeg" alt="tete de chien">
+      <h1 class="banner__title">cyno memo</h1>
+      <img class="banner__flag" src="/img/rgbn-ecusson.jpg" alt="ecusson de la basse normandie">
+    </header>
+    <nav class="banner__navbar">
+      <ul class="banner__links">
+        <li class="banner__link">
+          <a href="#">Menu</a>
+          <a href="#">Menu</a>
+          <a href="#">Menu</a>
+          <a href="#">Menu</a>
+          <a href="#">Profil</a>
+        </li>
+      </ul>
+    </nav>
+    <button aria-label="toggle navigation" class="burger__button">
+      <span class="burger__button--line l1"></span>
+      <span class="burger__button--line l2"></span>
+      <span class="burger__button--line l3"></span>
+    </button>
+    <section class="content">
+      <div class="account__profils"> Votre profil contient actuellement x chiens.</div>
+      <div class="account__noprofils">if ne contient pas de chien : <a href="#">ajouter un chien au profil.</a></div>
+      <ul class="account__actions">
+        <h3>Que voulez vous faire ? </h3>
+        <li><a href="#">Ajouter une mission.</a></li>
+        <li><a href="#">Consulter l'historique des missions.</a></li>
+        <li><a href="#">Accéder aux statistiques d'une autre unité.</a></li>
+      </ul>
+      <div class="account__activity">
+        <h4>Activité des trois dernières années</h4>
+        A ce jour, vous aviez effectués:
+        <ul>
+          <li>2022 : x EJ, x OADR, x OADF, x Captures</li>
+          <li>2021 : x EJ, x OADR, x OADF, x Captures</li>
+          <li>2020 : x EJ, x OADR, x OADF, x Captures</li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer__page">
+      <div class="connectedStatus">
+        <span class="user__firstname">User</span>, vous êtes actuellement connecté.
+      </div>
+    </footer>
 </body>
 </html>

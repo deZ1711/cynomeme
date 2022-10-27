@@ -10,23 +10,38 @@
   &__logo {
     height: 100%;
   }
+  &__flag {
+    height: 100%;
+  }
   &__navbar {
     width: 100%;
     display: flex;
     flex-direction: column;
-    transform: translateX(100%);
+    transform: translateX(-800%);
+    background-color: white;
+    border-radius: 50px;
     transition: transform .3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
     &.active {
-      transform: translateX(0);
-      transform: translateY(-30px);
+      transform: translate(10%, 30%);
+      @media screen and (min-width: 750px) {
+        transform: translate(0, 30%);
+      }
     }
   }
   &__title {
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: .6em;
-    font-size: 4em;
+    letter-spacing: .3em;
+    font-size: 2em;
+    line-height: 1.5em;
     width: 100%;
+    &::after {
+      @media screen and (min-width: 750px) {
+      content: 'v1.0';
+      font-size: 0.4em;
+      letter-spacing: normal;
+      }
+    }
   }
   &__link {     
     display: flex;
@@ -34,7 +49,8 @@
     justify-content: center;
     height: 2em;
     & > a {
-    margin: 0 1em;
+      margin: 0 1em;
+      color: black;
     }
   }  
 }
